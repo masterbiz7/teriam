@@ -1,40 +1,121 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <title>Asout</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Internet Agency of Teriam</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+	<link rel="stylesheet" href="libs/slick/slick-theme.css">
+	<link rel="stylesheet" href="libs/slick/slick.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<div class="container">
+		<div class="bars">
+			<i class="fas fa-bars fa-2x" id="switcher"></i>
+		</div>
+		<aside class="menu">
+			<ul class="menu__wrapper">
+				<li class="menu__item"><a href="#site-dev">Разработка сайтов</a></li>
+				<li class="menu__item"><a href="#adv">Преимущества работы с нами</a></li>
+				<li class="menu__item" ><a href="#prices">Цены</a></li>
+				<li class="menu__item"><a href="#contacts">Контакты</a></li>
+				<li class="menu__item">
+					<button class="red-btn">Заказать</button></li>
+				<li class="menu__item">
+					<a href="#">+7-777-777-77-77</a>
+					<a href="#">something@mail.com</a>
+				</li>
+				
+			</ul>
+		</aside>
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-  </head>
-  <body>
-    <header>
-    	<div class="head-items">
-    		<div class="head-item">    			
-    			<img src="img/main-logo.png" alt="logo">
-    		</div>
-    		<div class="head-item">
-    			<img src="img/time.png" alt="time">
-    		</div>
-    		<div class="head-item">Минимальные сроки<br> проведения СОУТ</div>   		
-    		<div class="col-3">
-    			<img src="img/docs.png" alt="docs">
-    		</div>
-    		<div class="head-item">Минимальный пакет документов для заявки</div>		
-    		<div class="head-item">
-    			<p><small>г.Москва,</small> ул.Сельскохозяйственная д.17, к.7</p>
-    			<p>7(495) 125-14-12</p>
-    			<img src="img/phone.png" alt="phone"><span class="red1">Бесплатный звонок</span>
-    		</div>    		
-    	</div>
-    </header>
-	
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-  </body>
+		<header class="header" id="site-dev" style="background: url(img/head_bg.jpg) no-repeat center; background-size: cover;">
+			<div class="header__text">
+				<h1>Internet Agency of Teriam</h1>
+				<p>Разработка</p>
+				<p>Продвижение</p>
+			</div>
+		</header>
+
+		<section class="advantages" id="adv">
+			
+				<h2>Преимущества работы с нами</h2>
+				<span class="line"></span>
+			<div class="wrapper">
+				<span class="advantage">
+					<i class="fas fa-check-circle color-red"></i>
+						Отчитываемся о проделанной работе раз в 10 часов
+				</span>
+				<span class="advantage">
+					<i class="fas fa-check-circle color-red"></i>
+						Качество работы на хорошем уровне
+				</span>
+				<span class="advantage">
+					<i class="fas fa-check-circle"></i>
+						Есть разные вариации цен для вас
+				</span>
+				<span class="advantage">
+					<i class="fas fa-check-circle color-red"></i>
+						Рабочий персонал с опытом в своем деле более 5 лет
+				</span>
+				<span class="advantage">
+					<i class="fas fa-check-circle color-red"></i>
+						Кратчайшие сроки выполнения заказа
+				</span>
+				<span class="advantage">
+					<i class="fas fa-check-circle"></i>
+						Адекватные цены
+				</span>
+			</div>
+		</section>
+
+		<section class="prices" id="prices">
+			<div class="slider">
+				<div>
+					<h2>Наши цены</h2>
+					<h3>Создать сайт в короткие сроки</h3>				
+						<p>Создание сайта в короткие сроки ни коим образом не повлияет на качество работы, а лишь ускорит её. Данный вариант занимает сроки выполнения от 1 до 3 дней. Работа выполняется несколькими командами профессиональных кадров.</p>
+						<p class="service-cost">Стоимость услуги: От 30 000 рублей</p>			
+					<button class="red-btn">Заказать</button>
+				</div>
+				<div>
+					<h2>Наши цены</h2>
+					<h3>Создание сложных сайтов</h3>				
+						<p>Создание профессиональных многостраничных сайтов. Сроки ограничиваются по договоренности с клиентом. Работа выполняется профессиональными исполнителями.</p>
+						<p class="service-cost">Стоимость услуги: От 50 000 рублей</p>			
+					<button class="red-btn">Заказать</button>
+				</div>
+				<div>
+					<h2>Наши цены</h2>
+					<h3>Дешёвое создание сайтов</h3>				
+						<p>Дешевые создания сайтов выполняются начинающими исполнителями. Качество работы гарантируем отличное. Все их работы проходят проверку профессионалами.</p>
+						<p class="service-cost">Стоимость: От 8 000 рублей</p>				
+					<button class="red-btn">Заказать</button>
+				</div>
+				<div>
+					<h2>Наши цены</h2>
+					<h3>Стандартное создание сайтов</h3>				
+						<p>Уровень сложности заказа средний.
+						Над проектом работает одна команда специалистов среднего уровня. Сроки выполнения - договорные</p>
+						<p class="service-cost">Стоимость услуги: От 15 000 рублей</p>			
+					<button class="red-btn">Заказать</button>
+				</div>
+			</div>
+		</section>		
+
+		<section class="contacts" id="contacts">
+			<h2>Контакты</h2>
+			<form action="">
+				<input type="text" placeholder="Ваше имя">
+				<input type="phone" placeholder="Телефон">
+				<input type="email" placeholder="Email">
+				<textarea name="" id="" cols="30" rows="10" placeholder="Комментарий"></textarea>
+				<button class="red-btn">Отправить</button>
+			</form>
+		</section>
+	</div>
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="libs/slick/slick.js"></script>
+	<script src="js/main.js"></script>	
+</body>
 </html>
